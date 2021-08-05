@@ -1,0 +1,42 @@
+.Form {
+  height: 22%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin: 8px auto;
+  background-color: white;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 14px;
+}
+
+.Input {
+  display: block;
+  height: 5vh;
+  width: 50%;
+  padding: 10px 15px;
+  border-radius: 15px;
+  font-size: 18px;
+  border: 2px solid black;
+  outline: none;
+}
+
+.Input:focus {
+  background-color: rgb(20, 89, 238);
+  color: white;
+}
+
+.Button {
+  width: 20%;
+  padding: 10px 15px;
+  border: 2px solid black;
+  border-radius: 15px;
+  background-color: rgb(37, 15, 134);
+  color: white;
+  font-weight: bold;
+}
+
+.Button:hover {
+  background-color: rgb(20, 89, 238);
+}

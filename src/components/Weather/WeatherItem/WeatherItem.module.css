@@ -1,0 +1,17 @@
+.item {
+  display: flex;
+  padding: 30px 60px;
+  margin: 0;
+}
+
+.values {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.item img {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+}
